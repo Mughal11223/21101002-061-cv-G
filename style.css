@@ -1,0 +1,69 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+
+}
+.form{
+    margin: auto;
+    width: 210mm;
+    height: 297mm;
+    display: grid;
+    grid-template-columns: 0.33fr 1fr;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 10px ;
+}
+.form .partition{
+padding: 40px 20px;
+padding-left: 35px;
+background-color:white;
+width: 100%;
+color: black;
+}
+
+.flex{
+    margin-top: 8%; 
+    display: flex;
+   background-color: rgb(61, 59, 59);
+    height:50mm;
+    width: 140mm;
+}
+img{
+    border-radius: 100%;
+    margin-top: 5%;
+}
+.list-of-skill{
+    margin-top: 6%;
+    font-weight:500;
+    color:black;
+}
+.list-of-interest{
+    margin-top: 8%;
+}
+.flex .text-in-flex{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.flex .text-out-flex{
+margin-top: 18%;
+color: black;
+font-weight: 900;
+}
+.certificate{
+    margin-top: 5%;
+    font-weight: 200;
+}
+ .personal-projects{
+    margin-top:5% ;
+}
+.personal-achievement{
+    margin-top: 5%;
+}
+
+
+
